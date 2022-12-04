@@ -1,0 +1,21 @@
+﻿[---SHELL---]
+
+- The shell is a program that takes commands from the keyboard and gives them to the operating system.
+- On most Linux systems a program called "bash" acts as the shell program. 
+
+[---TERMINAL---]
+
+- It is a program that opens a window and lets you interact with the shell. 
+
+# pressing the up-arrow key returns the previous command.
+# pressing the down-arrow key let us get the blak line.
+
+[---OPERATING AS ROOT---]
+
+- If the last character of your shell prompt is #, you are operating as the superuser.
+- This means that you have administrative privileges. This can be dangerous, since you are able to delelte or overwrite any file on the system. 
+- sudo su [enables you to be a super user]
+
+
+
+

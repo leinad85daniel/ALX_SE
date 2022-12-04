@@ -1,0 +1,39 @@
+[---MOST COMMON DIRECTORIES---]
+
+- Boot loader files..........................[/boot]
+- Configuration files........................[/etc]
+- Essential programs.........................[/bin]
+- Applications...............................[/usr/bin]
+- Programs for superuser.....................[/sbin]
+- User application supportive................[/usr]
+- Installation of software...................[/usr/local]
+- Files that change as the system is running.[/var]
+- Shared libraries...........................[/lib]
+- ...
+
+- Watch this video
+--> https://youtu.be/42iQKuQodW4
+
+[---LINKS---]
+
+- The "ln" command for creating links is easy to use-most use cases require just a few lines of code. If you work efficiently and precisely, though, you should be aware of the difference between hard and soft links
+
+[---LN---]
+
+- The ln command is used to create links to files or directories. The command is given to the Linux command line. 
+
+- It is one of the most important and most frequently used terminal commands and can be used to create soft or hard links.
+
+[---SOFT AND HARD LINKS---]
+
+- Soft links are cross references that point to a file or directory. If you move or delete the original files, there is no longer a target and the link leads to nothing. On the other hand, if you delete the link, the original file link remains intact.
+
+- Soft links are also called symbolic links.Symbolic links are useful because they act as shortcuts to a file or directory. 
+
+- The -s option (ln -s) helps you to specify that the link you are going to create is a symbolic link.If you omit the -s option, then a hard link will be created instead.
+
+- Hard links aer mirror copies of the original file, which has its own directory entry. Several hard links can poin to the same file.
+
+- Say there is a video file that is only accessible in the directory "My Videos". After creating a hard link, it can also be retrieved form another directory. If the original file is deleted from "My Videos", it is still perfectly accessible via the hard link path to the file. This is an advantage of hard links. 
+
+- If you don't use the option -s on the ln command, it will create a hard link.
